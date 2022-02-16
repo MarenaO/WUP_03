@@ -37,6 +37,11 @@ basicCN + geom_boxplot(notch=TRUE,outlier.color = "red") + stat_boxplot(geom ='e
 
 ## Numerical Summarys 
 
+```{r}
+favstats(alcohol~Seat,data=ucdavis1)
+```
+Just by looking at the plots, it looks like there is a substantial difference between the back and the front, as well as the back and the middle. Although, there appears to not be a substantial difference between the front and the middle. THe numerical data confirms that there is a substantial difference between the the back and the front, as well as the back and the middle. The mean (average drinks) for the front is 1.78, for the middle it is 3.33, and for the back, it is 8.55. The back row had the biggest difference.  
+
 ## Inferential Tests
 
 ## Conclusions
