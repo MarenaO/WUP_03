@@ -44,6 +44,17 @@ Just by looking at the plots, it looks like there is a substantial difference be
 
 ## Inferential Tests
 
+```{r}
+model1 <- aov(alcohol~Seat,data=davisdata)
+summary.aov(model1)
+```
+
+```{r}
+plot(TukeyHSD(model1))
+```
+
+The inferential results show that there is a statistical significance. This can be confirmed by the result of a low p-value with the One Way Anova test. The p-value in this case came out to be 0.000116 (a low p-value usually means a value less than 0.05). Since there was a significance in the One Way Anova test, I followed it up with the TukeyHSD test. This test confirmed that the front row and back row are different, since zero is not in the confidence interval. Although, the front row and middle row are not different, since zero is in the confidence interval. Essentially, it shows that the back is different than both the middle and front row. It shows that back row drinks a lot more than the front row and also more than the middle, but not much more. 
+
 ## Conclusions
 
 
