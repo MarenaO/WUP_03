@@ -57,4 +57,5 @@ The inferential results show that there is a statistical significance. This can 
 
 ## Conclusions
 
+The boxplots from this data showed that there is a substantial difference between the back and the front, as well as the back and the middle. Although, there appears to not be a substantial difference between the front and the middle. The numerical data confirmed that there is a substantial difference between the the back and the front, as well as the back and the middle, and the back row had the greatest difference. I then ran a One Way Anova test, which concluded that there is a statistical significance, confirmed by a low p-value. I then followed this test up with a TukeyHSD test, which confirmed that the back row is different than both the front and middle row, due to zero not being in the confidnece interval.
 
